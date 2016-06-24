@@ -1,0 +1,22 @@
+{
+  "name": "each-file",
+  "version": "0.0.0",
+  "description": "Read contents of each file parallelly",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "url": "git@github.com:azer/each-file.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "flat-glob": "github:azer/flat-glob",
+    "parallel-loop": "github:azer/parallel-loop"
+  },
+  "devDependencies": {
+    "prova": "github:azer/prova"
+  }
+}
