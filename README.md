@@ -12,6 +12,7 @@ $ npm install azer/each-file
 
 ```js
 var eachFile = require('each-file')
+
 eachFile(["./components/*.js", "./containers/*.js"], each, function (error) {
   if (error) throw error
 })
